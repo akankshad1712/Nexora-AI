@@ -15,13 +15,13 @@ import {
 
 const links = [
   { name: "Dashboard", href: "/dashboard", icon: IconLayoutDashboard },
-  { name: "AI Chat", href: "/ai-chat", icon: IconRobot },
-  { name: "Customers", href: "/customers", icon: IconUsers },
-  { name: "Products", href: "/products", icon: IconPackage },
-  { name: "Orders", href: "/orders", icon: IconShoppingCart },
-  { name: "Invoices", href: "/invoices", icon: IconReceipt },
-  { name: "Analytics", href: "/analytics", icon: IconChartBar },
-  { name: "Settings", href: "/settings", icon: IconSettings },
+  { name: "AI Chat", href: "/dashboard/ai-chat", icon: IconRobot },
+  { name: "Customers", href: "/dashboard/customers", icon: IconUsers },
+  { name: "Products", href: "/dashboard/products", icon: IconPackage },
+  { name: "Orders", href: "/dashboard/orders", icon: IconShoppingCart },
+  { name: "Invoices", href: "/dashboard/invoices", icon: IconReceipt },
+  { name: "Analytics", href: "/dashboard/analytics", icon: IconChartBar },
+  { name: "Settings", href: "/dashboard/settings", icon: IconSettings },
 ];
 
 export default function Sidebar() {
